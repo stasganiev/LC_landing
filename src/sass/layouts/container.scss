@@ -1,0 +1,22 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: $s-max) {
+  .container {
+    max-width: $s-content;
+  }
+}
+
+@media (min-width: $m-min) and (max-width: $m-max) {
+  .container {
+    max-width: $m-content;
+  }
+}
+
+@media (min-width: $l-min) {
+  .container {
+    max-width: $l-content;
+  }
+}

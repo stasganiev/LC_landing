@@ -5,16 +5,32 @@
 }
 
 // Типографика
-@mixin font-mons($fs: 1rem, $lh: 1.25, $fw: normal, $tt: unset) {
-  font-family: "Montserrat", "Arial", sans-serif;
+@mixin font-reg($fs: 1rem, $lh: 1.25, $fw: normal, $tt: unset) {
+  font-family: "Conv_akrobat-regular", "Arial", sans-serif;
   font-size: $fs;
   line-height: $lh;
   font-weight: $fw;
   text-transform: $tt;
 }
 
-@mixin font-qsand($fs: 1rem, $lh: 1.25, $fw: normal, $tt: unset) {
-  font-family: "Quicksand", "Arial", sans-serif;
+@mixin font-bold($fs: 1rem, $lh: 1.25, $fw: normal, $tt: unset) {
+  font-family: "Conv_akrobat-bold", "Arial", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+  text-transform: $tt;
+}
+
+@mixin font-light($fs: 1rem, $lh: 1.25, $fw: normal, $tt: unset) {
+  font-family: "Conv_akrobat-light", "Arial", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+  text-transform: $tt;
+}
+
+@mixin font-thin($fs: 1rem, $lh: 1.25, $fw: normal, $tt: unset) {
+  font-family: "Conv_akrobat-thin", "Arial", sans-serif;
   font-size: $fs;
   line-height: $lh;
   font-weight: $fw;
