@@ -1,0 +1,55 @@
+.btn {
+  // appearance: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  &_main {
+    padding: 12px 25px;
+    border: 2px solid $accent-color;
+    border-radius: 5px;
+    background-color: $accent-color;
+    text-align: center;
+  }
+
+  &_footer {
+    padding: 12px 25px;
+    border: 2px solid $color-footer-btn-bg;
+    border-radius: 5px;
+    background-color: $color-footer-btn-bg;
+    text-align: center;
+  }
+
+  &_menu {
+    padding: 12px 25px;
+
+    &:hover {
+      box-shadow: inset 0 -2px 0 0 $second-color;
+    }
+  }
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}

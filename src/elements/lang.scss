@@ -1,0 +1,13 @@
+.lang__link {
+  font-size: 8px;
+  text-align: center;
+}
+
+.lang__flag {
+  margin-bottom: 3px;
+  @include size(25px, 15px);
+
+  &_ru {
+    background-image: linear-gradient(red 33%, white 33%, white 67%, blue 67%);
+  }
+}

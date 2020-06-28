@@ -73,7 +73,7 @@
   flex-wrap: wrap;
 }
 
-@mixin flex-row-sp {
+@mixin flex-row-sb {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -86,7 +86,7 @@
   flex-wrap: wrap;
 }
 
-@mixin flex-col-sp {
+@mixin flex-col-sb {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

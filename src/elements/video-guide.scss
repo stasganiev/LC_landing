@@ -1,0 +1,8 @@
+.video-guide {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.video-guide__rec {
+  @include size(100%, 50%);
+}

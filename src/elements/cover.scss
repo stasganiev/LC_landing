@@ -1,0 +1,7 @@
+.cover {
+  width: 100%;
+}
+
+.cover__img {
+  @include size(100%, auto);
+}
